@@ -114,6 +114,7 @@ body {
     width          : 100%;
     justify-content: space-evenly;
     align-items    : center;
+    margin-top     : 2rem;
 }
 
 .app-download {
@@ -153,4 +154,12 @@ body {
     .group {
         border: 1px solid transparent;
     }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
